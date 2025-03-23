@@ -43,7 +43,26 @@ This project is a Library Management System that includes authentication, role-b
 ## Setup Instructions
 
 ### Backend Setup (Spring Boot)
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/library-management-system.git
-   cd library-management-system
+1.Create a new Spring Boot project with dependencies:
+Spring Web
+Spring Security
+Spring Data JPA
+MySQL Driver
+Lombok
+JWT (jjwt)
+
+2. Configure MySQL database in application.properties:
+spring.datasource.url=jdbc:mysql://localhost:3306/library
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+
+3. Run the backend:
+
+
+
+
+### Frontend Setup (React.js with TypeScript)
+
+npx create-react-app library-frontend --template typescript
+
+npm install axios react-router-dom jwt-decode
