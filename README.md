@@ -44,17 +44,17 @@ This project is a Library Management System that includes authentication, role-b
 
 ### Backend Setup (Spring Boot)
 1.Create a new Spring Boot project with dependencies:
-Spring Web
-Spring Security
-Spring Data JPA
-MySQL Driver
-Lombok
-JWT (jjwt)
+- Spring Web
+- Spring Security
+- Spring Data JPA
+- MySQL Driver
+- Lombok
+- JWT (jjwt)
 
 2. Configure MySQL database in application.properties:
-spring.datasource.url=jdbc:mysql://localhost:3306/library
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+- spring.datasource.url=jdbc:mysql://localhost:3306/library
+- spring.datasource.username=root
+- spring.datasource.password=yourpassword
 
 3. Run the backend:
 
