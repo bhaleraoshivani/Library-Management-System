@@ -62,7 +62,14 @@ spring.datasource.password=yourpassword
 
 
 ### Frontend Setup (React.js with TypeScript)
-
+1. create new project
 npx create-react-app library-frontend --template typescript
-
+2. install router
 npm install axios react-router-dom jwt-decode
+3. Install dependencies:
+ npm install
+4. replace your src with my src folder
+5. Navigate to the library-frontend folder:
+ cd library-frontend
+6. Start the frontend:
+npm start
